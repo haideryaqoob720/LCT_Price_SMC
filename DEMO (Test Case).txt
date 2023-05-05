@@ -1,0 +1,59 @@
+                        DEMO (Test Case)
+
+1) Deployment
+    .No Build          =>Done
+    .Creating Build    =>Done
+    .Build Added
+    .Contract address (deployed)         =>0x9647c412E37F362ae1Bb04878aFA44Fa86EE6287
+2) ABI
+    .ABI Created     =>Done
+    .Copy from contract to fronend     => Done
+3) Swap
+    .Rate
+    .Balance   (ETH & LTC) of user        =>(99.2394 & 500000)
+    .Balance   (ETH & LTC) of exchange    =>(0 & 500000)
+    .Buy LTC         => DOne
+    .Updated Balances   (ETH & LTC) of user       =>(99.1385 & 505777)
+    .Updated Balances   (ETH & LTC) of exchange     =>(0.1 & 494223)
+                            SwapDone
+4) Stake    
+    .Balance   (LTC) of user                        =>(505777)
+    .Balance   (LTC) of exchange                    =>(494223)
+    .Stake Options                                  => Done
+    .Perform Stake for  (12 month & 2 minutes)     => 12 Month stake Completed  505750  2 Minutes stake Completed  505700  
+    .Updated Balances   (LTC) of user               => 505700
+    .Updated Balances   (LTC) of exchange           => 494300
+                            AMOUNT OF EXCHANGE INCREASED
+                                    DONE  :)
+5) Withdraw
+    .show staked tokens          => 2 stakes completed showing => Done
+                We cut the video to insure that time is passed
+                part 2 start
+    .withdraw after time     => Done staked at 21:29 and now 21:43 _ Time passed
+            we are going to withdraw second one which is 2 minute test we can't wait for months for live testing
+    .withdraw 12 month stake _ not completed  => give error that time not passed   =>Done
+    .withdraw 2 minutesstake _ completed     =>2 mnts are passed so withdraw successfull
+    .update Balances of user and stake  =>before our balance is 505700 now it is 505751 with 1 LTC incentive
+                    Done
+5) Admin
+    .Withdraw BNB & LTC  _ only owner  =>it will only call by owner i change the address now check gives error 
+    .Current Balance =      BNB(0.1) and LTC (494249)
+    .Perform transaction with only owner
+    .Updated Balances   (LTC) of admin     => owner have 505751 ltc and now it have 1000000
+    .Updated Balances   (BNB) of admin      => before it is 0.1 now it is 0 funds transfered to owner wallet address
+               Done all funds are transfered to owner wallet address
+5) Investor
+    .Deposit BNB & LTC   =>send some bnb to contract, contract receive and maintain record of investors
+                            and contract received 1 BNB
+                         => Similarly for LTC
+    .List of investment history            => Done
+6) Ownable Contract _ only ownder
+                    Again it will be only call by owner, let me show
+                    trying with wrong address _not owner address =>because sender is not owner
+    .current owner      => Now the new owner i am creating is account 5 (0xD775Ee0a9Dd3298d4ecD5993BE56eA9Ab31909e6)
+    .Perform transaction     => check the owner address
+    .new owner         => Ownership of smart contract is transfered successfully
+                          
+                          all Functionality's are working fine witout any backend at the moment i am retreiving all the data from smart contract with no fee
+
+                                            THANK YOU ;)
